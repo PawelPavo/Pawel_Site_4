@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components';
 import GoogleFontLoader from 'react-google-font-loader';
 import Navigation from '../components/Navigation'
+import { IconContext } from "react-icons"
+import { FiSend } from 'react-icons/fi';
+
 
 function Home() {
     return (
@@ -11,7 +14,7 @@ function Home() {
                 fonts={[
                     {
                         font: 'Raleway',
-                        weights: [200, '400i',400],
+                        weights: [200, '400i', 400],
                     },
                     {
                         font: 'Roboto',
@@ -32,11 +35,18 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="row justify-content-center mt-2">
-                        <div className="col-auto">
+                    <div className="row justify-content-center">
+                        <div className="col-auto my-auto">
                             <Link to="/projects" className="">
                                 <button type="button" className="border btn btn-md-lg btn-outline-orange rounded-pill px-5 py-3 blurrybtn">View My Work </button>
                             </Link>
+                        </div>
+                        <div className="col-auto my-auto">
+                            <IconContext.Provider value={{ style: { fontSize: '15px', opacity: "1" } }}>
+                                <Link to="/contact" className="">
+                                    <button type="button" className="border btn btn-md-lg btn-outline-orange rounded-pill px-5 py-3 blurrybtn">Contact Me <FiSend /> </button>
+                                </Link>
+                            </IconContext.Provider>
                         </div>
                     </div>
                 </div>
