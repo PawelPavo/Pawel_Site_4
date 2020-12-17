@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
 import styled from 'styled-components';
 import GoogleFontLoader from 'react-google-font-loader';
 import Navigation from '../components/Navigation'
+import { Link } from 'react-router-dom'
 import { IconContext } from "react-icons"
 import { FiSend } from 'react-icons/fi';
 
