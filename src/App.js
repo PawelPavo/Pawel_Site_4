@@ -30,4 +30,18 @@ function App() {
   );
 }
 
+var style2 = [
+  'background: linear-gradient(#E36C4E, #19272f)',
+  'border: 1px solid #E36C4E',
+  'color: white',
+  'padding: 1px 5px',
+  'display: block',
+  'line-height: 40px',
+  'text-align: center',
+  'font-weight: bold',
+  'font-size: large'
+].join(';');
+console.log('%cI am looking to get hired...if you like what you see, we should talk', style2);
+console.log('%cpjpavo@gmail.com', style2);
+
 export default App;

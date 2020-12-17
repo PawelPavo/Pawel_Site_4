@@ -137,7 +137,7 @@ const ProjectLayout = styled.div`
     font-family: 'Raleway';
     font-size: 1.4rem;
     color: white;
-    /* border-bottom: 1px solid; */
+    font-weight: 600;
 }
 
 .description{
@@ -150,7 +150,8 @@ const ProjectLayout = styled.div`
     -webkit-transition: all .6s ease;
     border-left: 1px solid white;
     border-right: 1px solid white;
-
+    font-family: 'Raleway';
+    
 }
 
 .show-text:hover {
