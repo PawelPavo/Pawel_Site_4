@@ -1,5 +1,7 @@
 $theme-colors: (
-    'orange' : #E36C4E
+    'orange' : #E36C4E,
+    'custom-primary': #19272f,
+    'custom-light': #aaa8a8
 );
 
 @import '~bootstrap/scss/bootstrap';
