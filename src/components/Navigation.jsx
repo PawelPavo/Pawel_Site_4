@@ -150,14 +150,14 @@ const NavLayout = styled.div`
     } 
 }
 
-/* @media screen and (orientation: portrait) { 
-    .name-box {
+@media screen and (orientation: portrait) { 
+    .openbtn {
         font-size: 3vh;
     }
-    .blurrybtn {
+    .closebtn {
         font-size: 3vh;
     }
-} */
+}
 
 `
 

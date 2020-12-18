@@ -42,11 +42,9 @@ function Home() {
                             </Link>
                         </div>
                         <div className="col-auto my-auto">
-                            <IconContext.Provider value={{ style: { fontSize: '15px', opacity: "1" } }}>
-                                <Link to={process.env.PUBLIC_URL + '/contact'} className="">
-                                    <button type="button" className="border btn btn-md-lg btn-outline-orange rounded-pill px-5 py-3 blurrybtn">Contact Me <FiSend /> </button>
-                                </Link>
-                            </IconContext.Provider>
+                            <Link to={process.env.PUBLIC_URL + '/contact'} className="">
+                                <button type="button" className="border btn btn-md-lg btn-outline-orange rounded-pill px-5 py-3 blurrybtn">Contact Me <FiSend /> </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -128,7 +126,9 @@ const PageStyle = styled.div`
         font-size: 3vh;
     }
     .blurrybtn {
-        font-size: 3vh;
+        font-size: 1.9vh;
+        font-weight: normal;
+
     }
 }
 
