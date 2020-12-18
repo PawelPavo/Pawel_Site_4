@@ -31,7 +31,7 @@ function Contact() {
                         <div>OK, LET’S CREATE</div>
                         <div>SOMETHING GREAT</div>
                     </div>
-                    <div className="text-white pt-3 font-weight-lighter par-text">If you like my work and have a project in mind, just send me a direct message @ <span>pjpavo@gmail.com</span> or contact me on social media listed below.</div>
+                    <h5 className="text-white pt-3 font-weight-lighter par-text">If you like my work and have a project in mind, just send me a direct message @ <span>pjpavo@gmail.com</span> or contact me on social media listed below.</h5>
                     <div className="row mt-3">
                         <div className="col">
                             <a href="https://www.linkedin.com/in/pawel-jaskolski-995323b3/" rel="noreferrer" target="_blank" className="icon text-orange"><AiOutlineLinkedin /></a>
@@ -84,17 +84,13 @@ const PageStyle = styled.div`
     -webkit-transition: all .4s ease;
 }
 
-@media screen and (orientation: portrait) { 
+@media (max-width: 576px) { 
     .text {
-        font-size: 4.5vh;
+        font-size: 6vw;
     }  
     .icon {
-        font-size: 4vh;
-    }
-
-    .par-text {
-        font-size: 2.75vh;
-    }
+        font-size: 7vw;
+    } 
 }
 
 

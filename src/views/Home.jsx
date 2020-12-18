@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import GoogleFontLoader from 'react-google-font-loader';
 import Navigation from '../components/Navigation'
 import { Link } from 'react-router-dom'
+import { IconContext } from "react-icons"
 import { FiSend } from 'react-icons/fi';
 
 
@@ -22,28 +23,30 @@ function Home() {
                 ]}
                 subsets={['cyrillic-ext', 'greek']}
             />
-            <div className="min-vh-100 d-flex justify-content-center align-items-center home">
-                <div className="row text-white pl-3 pt-2 fixed-top">
+            <div className="container-fluid  home">
+                <div className="row text-white pl-3 pt-2">
                     <Navigation />
                 </div>
-                <div className="justify-content-center">
+                <div className="justify-content-center content-box">
                     <div className="row justify-content-center">
-                        <div className="col-auto text-white text-center">
-                            <h1 className="font-weight-lighter name-box">Hello, I am <span className="name">Pawel Jaskolski</span>
+                        <div className="col-auto text-white name-box text-center">
+                            <div>Hello, I am <span className="name">Pawel Jaskolski</span>
                                 <div className="">I'm a full-stack web developer.</div>
-                            </h1>
+                            </div>
                         </div>
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-auto my-auto">
-                            <Link to={process.env.PUBLIC_URL + '/projects'} className="">
+                            <Link to="/projects" className="">
                                 <button type="button" className="border btn btn-md-lg btn-outline-orange rounded-pill px-5 py-3 blurrybtn">View My Work </button>
                             </Link>
                         </div>
                         <div className="col-auto my-auto">
-                            <Link to={process.env.PUBLIC_URL + '/contact'} className="">
-                                <button type="button" className="border btn btn-md-lg btn-outline-orange rounded-pill px-5 py-3 blurrybtn">Contact Me <FiSend /> </button>
-                            </Link>
+                            <IconContext.Provider value={{ style: { fontSize: '15px', opacity: "1" } }}>
+                                <Link to="/contact" className="">
+                                    <button type="button" className="border btn btn-md-lg btn-outline-orange rounded-pill px-5 py-3 blurrybtn">Contact Me <FiSend /> </button>
+                                </Link>
+                            </IconContext.Provider>
                         </div>
                     </div>
                 </div>
@@ -55,6 +58,7 @@ function Home() {
 const PageStyle = styled.div`
 .home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1578532009320-10258506d6c8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80");
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,8 +67,16 @@ const PageStyle = styled.div`
     
 }
 
+.content-box {
+    overflow: hidden;
+    margin-top : 50%;
+}
+
 .name-box {
+    color: white;
     font-family: 'Raleway';
+    font-weight: 100;
+    font-size: 4vw;
 }
 
 .name{
@@ -111,13 +123,10 @@ const PageStyle = styled.div`
     }
 }
 
-@media screen and (orientation: portrait) { 
+@media (max-width: 576px) { 
     .name-box {
-        font-size: 3.5vh;
-    }
-    .blurrybtn {
-        font-size: 2.25vh;
-    }
+        font-size: 6vw;
+    }   
 }
 
 `

@@ -33,10 +33,10 @@ function Navigation() {
                 <div id="myNav" className="overlay">
                     <div className="closebtn text-white" onClick={closeNav}><CgClose /> close</div>
                     <div className="overlay-content" style={{ fontFamily: "Ubuntu" }}>
-                        <NavLink onClick={closeNav} className="left nav-link nav-text mx-5 text-light menu-underline" to={process.env.PUBLIC_URL + '/'}>Home</NavLink>
-                        <NavLink onClick={closeNav} className="left nav-link nav-text mx-5 text-light menu-underline" to={process.env.PUBLIC_URL + '/projects'}>Projects</NavLink>
-                        <NavLink onClick={closeNav} className="left nav-link nav-text mx-5 text-light menu-underline" to={process.env.PUBLIC_URL + '/about'}>About Me</NavLink>
-                        <NavLink onClick={closeNav} className="left nav-link nav-text mx-5 text-light menu-underline" to={process.env.PUBLIC_URL + '/contact'}>Contact</NavLink>
+                        <NavLink onClick={closeNav} className="left nav-link nav-text mx-5 text-light menu-underline" to={'/'}>Home</NavLink>
+                        <NavLink onClick={closeNav} className="left nav-link nav-text mx-5 text-light menu-underline" to={'/projects'}>Projects</NavLink>
+                        <NavLink onClick={closeNav} className="left nav-link nav-text mx-5 text-light menu-underline" to={'/about'}>About Me</NavLink>
+                        <NavLink onClick={closeNav} className="left nav-link nav-text mx-5 text-light menu-underline" to={'/contact'}>Contact</NavLink>
 
                     </div>
                 </div>
@@ -67,7 +67,7 @@ const NavLayout = styled.div`
   margin-top: 30px;
 }
 
-.overlay .left {
+.overlay a {
   text-decoration: none;
   font-size: 36px;
   color: white;
@@ -100,7 +100,7 @@ const NavLayout = styled.div`
 }
 
 @media screen and (max-height: 450px) {
-  .overlay .left {font-size: 20px}
+  .overlay a {font-size: 20px}
   .overlay .closebtn {
   font-size: 40px;
   top: 15px;
@@ -148,15 +148,6 @@ const NavLayout = styled.div`
     100% { 
         -webkit-transform: translateX(0); 
     } 
-}
-
-@media screen and (orientation: portrait) { 
-    .openbtn {
-        font-size: 3vh;
-    }
-    .closebtn {
-        font-size: 3vh;
-    }
 }
 
 `
