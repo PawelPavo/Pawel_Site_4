@@ -125,7 +125,7 @@ const PageStyle = styled.div`
 
 @media (max-width: 576px) { 
     .name-box {
-        font-size: 6vw;
+        font-size: 6vh;
     }   
 }
 
