@@ -123,7 +123,7 @@ const PageStyle = styled.div`
     }
 }
 
-@media (max-width: 576px) { 
+@media screen and (orientation: portrait) { 
     .name-box {
         font-size: 6vh;
     }   
