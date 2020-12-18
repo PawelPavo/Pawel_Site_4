@@ -67,32 +67,32 @@ function About() {
 }
 
 const PageStyle = styled.div`
-img {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+/* img {
+    -webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
-}
+} */
 
-.hello-text {
+/* .hello-text {
     font-family: 'Raleway';
     font-weight: bold;
     color: white;
-}
+} */
 
-.hello-text>span {
+/* .hello-text>span {
     color: #E36C4E;
-}
+} */
 
-.about-text {
+/* .about-text {
     color: white;
     font-family: 'Raleway';
-}
+} */
 
-.icon {
+/* .icon {
     font-weight: bold;
     text-decoration: none;
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
-}
+} */
 
 /* @media screen and (orientation: portrait) { 
     .hello-text {
