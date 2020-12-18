@@ -77,6 +77,10 @@ const PageStyle = styled.div`
     font-family: 'Raleway';
     font-weight: 100;
     font-size: 4vw;
+    -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
 }
 
 .name{
