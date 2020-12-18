@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Pawel_Site_4/static/css/main.48ee7a2e.chunk.css",
-    "main.js": "/Pawel_Site_4/static/js/main.2732d0d1.chunk.js",
-    "main.js.map": "/Pawel_Site_4/static/js/main.2732d0d1.chunk.js.map",
+    "main.js": "/Pawel_Site_4/static/js/main.10da04ed.chunk.js",
+    "main.js.map": "/Pawel_Site_4/static/js/main.10da04ed.chunk.js.map",
     "runtime-main.js": "/Pawel_Site_4/static/js/runtime-main.b48fb5a7.js",
     "runtime-main.js.map": "/Pawel_Site_4/static/js/runtime-main.b48fb5a7.js.map",
-    "static/js/2.3040fdc1.chunk.js": "/Pawel_Site_4/static/js/2.3040fdc1.chunk.js",
-    "static/js/2.3040fdc1.chunk.js.map": "/Pawel_Site_4/static/js/2.3040fdc1.chunk.js.map",
+    "static/js/2.37817ba4.chunk.js": "/Pawel_Site_4/static/js/2.37817ba4.chunk.js",
+    "static/js/2.37817ba4.chunk.js.map": "/Pawel_Site_4/static/js/2.37817ba4.chunk.js.map",
     "static/js/3.7cfa46ca.chunk.js": "/Pawel_Site_4/static/js/3.7cfa46ca.chunk.js",
     "static/js/3.7cfa46ca.chunk.js.map": "/Pawel_Site_4/static/js/3.7cfa46ca.chunk.js.map",
     "index.html": "/Pawel_Site_4/index.html",
     "static/css/main.48ee7a2e.chunk.css.map": "/Pawel_Site_4/static/css/main.48ee7a2e.chunk.css.map",
-    "static/js/2.3040fdc1.chunk.js.LICENSE.txt": "/Pawel_Site_4/static/js/2.3040fdc1.chunk.js.LICENSE.txt"
+    "static/js/2.37817ba4.chunk.js.LICENSE.txt": "/Pawel_Site_4/static/js/2.37817ba4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b48fb5a7.js",
-    "static/js/2.3040fdc1.chunk.js",
+    "static/js/2.37817ba4.chunk.js",
     "static/css/main.48ee7a2e.chunk.css",
-    "static/js/main.2732d0d1.chunk.js"
+    "static/js/main.10da04ed.chunk.js"
   ]
 }
