@@ -76,7 +76,7 @@ const PageStyle = styled.div`
     color: white;
     font-family: 'Raleway';
     font-weight: 100;
-    font-size: 4vh;
+    font-size: 5rem;
 }
 
 .name{
@@ -117,16 +117,16 @@ const PageStyle = styled.div`
 100%{opacity: 1}
 }
 
-@media screen and (orientation: landscape) {
+/* @media screen and (orientation: landscape) {
     .content-box {
         margin-top:10%;      
     }
-}
-
-/* @media (max-width: 576px) { 
     .name-box {
         font-size: 6vw;
     }   
+}
+
+@media (max-width: 576px) { 
 } */
 
 `

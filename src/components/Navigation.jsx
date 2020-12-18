@@ -26,9 +26,9 @@ function Navigation() {
                     subsets={['cyrillic-ext', 'greek']}
                 />
                 <div id="navBar">
-                    <div className="openbtn fade_effect"
+                    <h4 className="openbtn fade_effect"
                         style={{ fontSize: "30px", cursor: "pointer" }} onClick={openNav}><CgMenuRight /> open
-                    </div>
+                    </h4>
                 </div>
                 <div id="myNav" className="overlay">
                     <div className="closebtn text-white" onClick={closeNav}><CgClose /> close</div>
@@ -37,7 +37,6 @@ function Navigation() {
                         <NavLink onClick={closeNav} className="left nav-link nav-text mx-5 text-light menu-underline" to={process.env.PUBLIC_URL + '/projects'}>Projects</NavLink>
                         <NavLink onClick={closeNav} className="left nav-link nav-text mx-5 text-light menu-underline" to={process.env.PUBLIC_URL + '/about'}>About Me</NavLink>
                         <NavLink onClick={closeNav} className="left nav-link nav-text mx-5 text-light menu-underline" to={process.env.PUBLIC_URL + '/contact'}>Contact</NavLink>
-
                     </div>
                 </div>
             </NavLayout>
