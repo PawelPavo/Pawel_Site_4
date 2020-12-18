@@ -42,11 +42,9 @@ function Home() {
                             </Link>
                         </div>
                         <div className="col-auto my-auto">
-                            <h3>
-                                <Link to={process.env.PUBLIC_URL + '/contact'} className="">
-                                    <button type="button" className="border btn btn-md-lg btn-outline-orange rounded-pill px-5 py-3 blurrybtn">Contact Me <FiSend /> </button>
-                                </Link>
-                            </h3>
+                            <Link to={process.env.PUBLIC_URL + '/contact'} className="">
+                                <button type="button" className="border btn btn-md-lg btn-outline-orange rounded-pill px-5 py-3 blurrybtn">Contact Me <FiSend /> </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -95,6 +93,8 @@ const PageStyle = styled.div`
 	background-color: rgba(227, 108, 78, .25);
     backdrop-filter: blur(0);
     letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: bold;
     text-transform: uppercase;
     margin-top: 15%;
 }
@@ -124,6 +124,9 @@ const PageStyle = styled.div`
 @media screen and (orientation: portrait) { 
     .name-box {
         font-size: 3vh;
+    }
+    .blurrybtn {
+        font-size: 1.9vh;
     }
 }
 
