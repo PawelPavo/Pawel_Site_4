@@ -24,9 +24,6 @@ function App() {
           <About />
         </PrivateRoute>
       </Switch>
-      <Route path="*">
-        <Home />
-      </Route>
     </HashRouter>
   );
 }
