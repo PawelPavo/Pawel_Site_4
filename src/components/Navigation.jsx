@@ -67,7 +67,7 @@ const NavLayout = styled.div`
   margin-top: 30px;
 }
 
-.overlay a {
+.overlay .left {
   text-decoration: none;
   font-size: 36px;
   color: white;
