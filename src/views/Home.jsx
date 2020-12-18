@@ -76,7 +76,7 @@ const PageStyle = styled.div`
     color: white;
     font-family: 'Raleway';
     font-weight: 100;
-    font-size: 25px;
+    font-size: 4vw;
 }
 
 .name{
@@ -95,7 +95,7 @@ const PageStyle = styled.div`
 	background-color: rgba(227, 108, 78, .25);
     backdrop-filter: blur(0);
     letter-spacing: 2px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 15%;
@@ -117,20 +117,17 @@ const PageStyle = styled.div`
 100%{opacity: 1}
 }
 
-/* @media screen and (orientation: landscape) {
+@media screen and (orientation: landscape) {
     .content-box {
         margin-top:10%;      
     }
-    .name-box {
-        font-size: 6vw;
-    }   
 }
 
 @media (max-width: 576px) { 
     .name-box {
-        font-size: 6vh;
-    } 
-} */
+        font-size: 6vw;
+    }   
+}
 
 `
 

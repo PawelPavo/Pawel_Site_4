@@ -135,7 +135,7 @@ const ProjectLayout = styled.div`
 
 .name {
     font-family: 'Raleway';
-    font-size: 3rem;
+    font-size: 1.4rem;
     color: white;
     font-weight: 600;
 }

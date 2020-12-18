@@ -64,7 +64,7 @@ const PageStyle = styled.div`
 
 .text {
     color: white;
-    font-size: 5rem;
+    font-size: 4.5vw;
     font-family: 'Raleway';
     filter: drop-shadow(0.15rem 0.15rem 0.1rem rgba(248, 247, 247, 0.5));
 
@@ -79,12 +79,12 @@ const PageStyle = styled.div`
 }
 
 .icon {
-    font-size: 3rem;
+    font-size: 3vw;
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
 }
 
-/* @media (max-width: 576px) { 
+@media (max-width: 576px) { 
     .text {
         font-size: 6vw;
     }  
@@ -98,7 +98,7 @@ const PageStyle = styled.div`
     .content-box {
         margin-top:5%;      
     }
-} */
+}
 
 `
 

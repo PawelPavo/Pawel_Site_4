@@ -91,7 +91,7 @@ img {
 .hello-text {
     color: white;
     font-family: 'Raleway';
-    font-size: 10rem;
+    font-size: 30px;
     font-weight: bold;
 }
 
