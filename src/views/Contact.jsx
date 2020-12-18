@@ -27,11 +27,17 @@ function Contact() {
                     <Navigation />
                 </div>
                 <div className="container content-box">
-                    <div className="col- text">
+                    <div className="col text" style={{ cursor: "default" }}>
                         <div>OK, LET’S CREATE</div>
                         <div>SOMETHING GREAT</div>
                     </div>
-                    <h5 className="text-white pt-3 font-weight-lighter par-text">If you like my work and have a project in mind, just send me a direct message @ <span>pjpavo@gmail.com</span> or contact me on social media listed below.</h5>
+                    <h5 style={{ cursor: "default" }} className="text-white pt-3 font-weight-lighter par-text">If you like my work and have a project in mind, just send me a direct message @
+                        <span>
+                            <a href="mailto:pjpavo@gmail.com?subject=I found your website and now..." rel="noreferrer" target="_blank">
+                                pjpavo@gmail.com
+                            </a>
+                        </span>
+                        or contact me on social media listed below.</h5>
                     <div className="row mt-3">
                         <div className="col">
                             <a href="https://www.linkedin.com/in/pawel-jaskolski-995323b3/" rel="noreferrer" target="_blank" className="icon text-orange"><AiOutlineLinkedin /></a>
