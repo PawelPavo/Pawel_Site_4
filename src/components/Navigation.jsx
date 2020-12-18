@@ -150,6 +150,15 @@ const NavLayout = styled.div`
     } 
 }
 
+/* @media screen and (orientation: portrait) { 
+    .name-box {
+        font-size: 3vh;
+    }
+    .blurrybtn {
+        font-size: 3vh;
+    }
+} */
+
 `
 
 export default Navigation;
