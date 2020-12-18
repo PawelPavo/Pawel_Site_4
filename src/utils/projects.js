@@ -66,7 +66,7 @@ export const ProjectsArray = [
     },
     {
         id: 9,
-        name: "Ligh/Dark Theme 2",
+        name: "Light/Dark Theme 2",
         description: "This site is made with Create React App using Bootstrap and custom CSS. It is a 2nd version of light and dark theme.",
         url: "https://pawelpavo.github.io/my-website2/#/my-website2/about",
         git: "https://github.com/PawelPavo/my-website2",
