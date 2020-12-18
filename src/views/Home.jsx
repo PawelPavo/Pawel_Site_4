@@ -76,7 +76,7 @@ const PageStyle = styled.div`
     color: white;
     font-family: 'Raleway';
     font-weight: 100;
-    font-size: 5rem;
+    font-size: 25px;
 }
 
 .name{
@@ -95,7 +95,7 @@ const PageStyle = styled.div`
 	background-color: rgba(227, 108, 78, .25);
     backdrop-filter: blur(0);
     letter-spacing: 2px;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 15%;
@@ -127,6 +127,9 @@ const PageStyle = styled.div`
 }
 
 @media (max-width: 576px) { 
+    .name-box {
+        font-size: 6vh;
+    } 
 } */
 
 `
