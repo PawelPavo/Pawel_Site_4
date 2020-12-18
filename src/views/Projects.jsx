@@ -26,7 +26,7 @@ function Projects() {
                 <div className="row text-white p-3">
                     <Navigation />
                 </div>
-                <div className="row mt-3 mx-5">
+                <div className="row mt-3 mx-5 md-mx-auto">
                     {ProjectsArray.map(project => (
                         <div key={project.name} className="col-md-4 center" >
                             <ProjectCard project={project} />
