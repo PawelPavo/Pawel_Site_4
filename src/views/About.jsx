@@ -75,6 +75,7 @@ img {
 .hello-text {
     font-family: 'Raleway';
     font-weight: bold;
+    color: white;
 }
 
 .hello-text>span {
