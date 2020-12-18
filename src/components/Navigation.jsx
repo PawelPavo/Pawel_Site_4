@@ -31,7 +31,7 @@ function Navigation() {
                     </div>
                 </div>
                 <div id="myNav" className="overlay">
-                    <div className="closebtn text-white" onClick={closeNav}><CgClose /> close</div>
+                    <div className="closebtn text-white" onClick={closeNav} style={{cursor: "pointer"}}><CgClose /> close</div>
                     <div className="overlay-content" style={{ fontFamily: "Ubuntu" }}>
                         <NavLink onClick={closeNav} className="left nav-link nav-text mx-5 text-light menu-underline" to={process.env.PUBLIC_URL + '/'}>Home</NavLink>
                         <NavLink onClick={closeNav} className="left nav-link nav-text mx-5 text-light menu-underline" to={process.env.PUBLIC_URL + '/projects'}>Projects</NavLink>

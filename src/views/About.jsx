@@ -31,7 +31,7 @@ function About() {
                         <div className="col-md-6">
                             <img className="image" src="https://news-api.s3.us-east-2.amazonaws.com/profile.jpg" alt="Pawel_Jaskolski_image" />
                         </div>
-                        <div className="col-md-6 mt-5">
+                        <div className="col-md-6 mt-5" style={{cursor: "default"}}>
                             <div className="hello-text">
                                 I'm Pawel, a full-stack web developer working as a <span>"Coder-For-Hire"</span>  in sunny Fort Lauderdale, Florida.
                             </div>
