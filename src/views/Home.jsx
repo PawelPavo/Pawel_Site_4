@@ -37,13 +37,13 @@ function Home() {
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-auto my-auto">
-                            <Link to="/projects" className="">
+                            <Link to={process.env.PUBLIC_URL + '/projects'} className="">
                                 <button type="button" className="border btn btn-md-lg btn-outline-orange rounded-pill px-5 py-3 blurrybtn">View My Work </button>
                             </Link>
                         </div>
                         <div className="col-auto my-auto">
                             <IconContext.Provider value={{ style: { fontSize: '15px', opacity: "1" } }}>
-                                <Link to="/contact" className="">
+                                <Link to={process.env.PUBLIC_URL + '/contact'} className="">
                                     <button type="button" className="border btn btn-md-lg btn-outline-orange rounded-pill px-5 py-3 blurrybtn">Contact Me <FiSend /> </button>
                                 </Link>
                             </IconContext.Provider>
