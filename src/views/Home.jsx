@@ -76,7 +76,7 @@ const PageStyle = styled.div`
     color: white;
     font-family: 'Raleway';
     font-weight: 100;
-    font-size: 4vw;
+    font-size: 4vh;
 }
 
 .name{
