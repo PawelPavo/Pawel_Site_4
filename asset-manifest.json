@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Pawel_Site_4/static/css/main.48ee7a2e.chunk.css",
-    "main.js": "/Pawel_Site_4/static/js/main.b3b8259f.chunk.js",
-    "main.js.map": "/Pawel_Site_4/static/js/main.b3b8259f.chunk.js.map",
+    "main.js": "/Pawel_Site_4/static/js/main.66430a47.chunk.js",
+    "main.js.map": "/Pawel_Site_4/static/js/main.66430a47.chunk.js.map",
     "runtime-main.js": "/Pawel_Site_4/static/js/runtime-main.b48fb5a7.js",
     "runtime-main.js.map": "/Pawel_Site_4/static/js/runtime-main.b48fb5a7.js.map",
     "static/js/2.7457e40c.chunk.js": "/Pawel_Site_4/static/js/2.7457e40c.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b48fb5a7.js",
     "static/js/2.7457e40c.chunk.js",
     "static/css/main.48ee7a2e.chunk.css",
-    "static/js/main.b3b8259f.chunk.js"
+    "static/js/main.66430a47.chunk.js"
   ]
 }
