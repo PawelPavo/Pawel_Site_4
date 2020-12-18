@@ -32,24 +32,24 @@ function About() {
                             <img className="image" src="https://news-api.s3.us-east-2.amazonaws.com/profile.jpg" alt="Pawel_Jaskolski_image" />
                         </div>
                         <div className="col-md-6 mt-5">
-                            <div className="hello-text">
+                            <h1 className="hello-text">
                                 I'm Pawel, a full-stack web developer working as a <span>"Coder-For-Hire"</span>  in sunny Fort Lauderdale, Florida.
-                            </div>
+                            </h1>
                             <div className="about-text mt-3">
-                                <div>
+                                <h3>
                                     I am an avid problem solver. I believe this quality is what makes me an excellent web developer.
-                                </div>
-                                <div className="mt-3">
+                                </h3>
+                                <h3 className="mt-3">
                                     I am a hardworking individual who brings passion and insight into everything I do.
-                                </div>
-                                <div className="mt-3">
+                                </h3>
+                                <h3 className="mt-3">
                                     In my free time, I enjoy researching and investing in the stock market, while maybe sipping on a Jai Alai (my favorite beer). I also enjoy going out to different restaurants trying to find the best fried calamari with my favorite human!
-                                </div>
-                                <div className="mt-3">
-                                    For a full scoop of my work experiance please check out 
+                                </h3>
+                                <h3 className="mt-3">
+                                    For a full scoop of my work experiance please check out
                                     <a href="https://news-api.s3.us-east-2.amazonaws.com/Pawel+SoftDev+Resume+August+20+AWS.pdf"
                                         rel="noreferrer" target="_blank" className="icon text-orange"> my resume <FaFilePdf /></a>
-                                </div>
+                                </h3>
                             </div>
                         </div>
                     </div>
@@ -67,31 +67,13 @@ function About() {
 }
 
 const PageStyle = styled.div`
-.about {
-    background: #19272f;
-    background-attachment:fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    animation: blink 2s linear 1;
-    height: 100vh;
-}
-
 img {
-    transform: rotate(-90deg);
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 25px;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
 
 .hello-text {
-    color: white;
     font-family: 'Raleway';
-    font-size: 30px;
     font-weight: bold;
 }
 
@@ -111,7 +93,7 @@ img {
     -webkit-transition: all .4s ease;
 }
 
-@media screen and (orientation: portrait) { 
+/* @media screen and (orientation: portrait) { 
     .hello-text {
         font-size: 5vh;
     }  
@@ -122,7 +104,7 @@ img {
     .icon {
         font-size: 4vh;
     }
-}
+} */
 
 `
 
