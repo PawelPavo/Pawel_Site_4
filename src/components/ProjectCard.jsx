@@ -36,7 +36,7 @@ function ProjectCard({ project }) {
                     {project.name}
                 </div>
                 <div className="row justify-content-center" style={{ cursor: "pointer" }}>
-                    <a href={project.git} rel="noreferrer" target="_blank" className="icon text-orange"><FiGithub /></a>
+                    <a href={project.git} rel="noreferrer" target="_blank" className="text-orange"><FiGithub /></a>
                     <div onClick={handleClick} className="text-orange show-text px-3 my-3">{show ? 'Show Project' : 'Show Tech Used'}</div>
                 </div>
                 {show ?
