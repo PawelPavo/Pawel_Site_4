@@ -6,7 +6,6 @@ import Projects from './views/Projects';
 import Contact from './views/Contact';
 import About from './views/About';
 
-
 function App() {
   return (
     <HashRouter>
