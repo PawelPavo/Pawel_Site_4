@@ -123,10 +123,10 @@ const PageStyle = styled.div`
 
 @media screen and (orientation: portrait) { 
     .name-box {
-        font-size: 3vh;
+        font-size: 3.5vh;
     }
     .blurrybtn {
-        font-size: 1.9vh;
+        font-size: 2.25vh;
     }
 }
 

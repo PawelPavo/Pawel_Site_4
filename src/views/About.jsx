@@ -111,6 +111,19 @@ img {
     -webkit-transition: all .4s ease;
 }
 
+@media screen and (orientation: portrait) { 
+    .hello-text {
+        font-size: 5vh;
+    }  
+    .about-text {
+        font-size: 4vh;
+    }
+
+    .icon {
+        font-size: 4vh;
+    }
+}
+
 `
 
 export default About;

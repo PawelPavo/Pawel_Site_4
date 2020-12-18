@@ -86,14 +86,14 @@ const PageStyle = styled.div`
 
 @media screen and (orientation: portrait) { 
     .text {
-        font-size: 3.5vh;
+        font-size: 4.5vh;
     }  
     .icon {
-        font-size: 2.5vh;
+        font-size: 4vh;
     }
 
     .par-text {
-        font-size: 2vh;
+        font-size: 2.75vh;
     }
 }
 
