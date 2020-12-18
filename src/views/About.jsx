@@ -46,7 +46,7 @@ function About() {
                                     In my free time, I enjoy researching and investing in the stock market, while maybe sipping on a Jai Alai (my favorite beer). I also enjoy going out to different restaurants trying to find the best fried calamari with my favorite human!
                                 </div>
                                 <div className="mt-3">
-                                    For a full scoop of my work experiance please check out 
+                                    For a full scoop of my work experience please check out 
                                     <a href="https://news-api.s3.us-east-2.amazonaws.com/Pawel+SoftDev+Resume+August+20+AWS.pdf"
                                         rel="noreferrer" target="_blank" className="icon text-orange"> my resume <FaFilePdf /></a>
                                 </div>
