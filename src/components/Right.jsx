@@ -24,8 +24,8 @@ function Right({ checked }) {
                     </svg>
                 </div>
             </div>
-            <div id="right" className="overlay">
-                <div className="closebtn text-white" onClick={closeNav}><CgClose /> close</div>
+            <div id="right" className="overlay" >
+                <div style={{ cursor: "pointer" }}  className="closebtn text-white" onClick={closeNav}><CgClose /> close</div>
                 <div className="text-orange m-5" style={{ fontFamily: "Raleway" }}>
                     <div className="row pt-5">
                         <CodeBar />
@@ -69,6 +69,7 @@ const RightStyles = styled.div`
   background-color: rgba(25,39,47, 0.97);
   overflow-x: hidden;
   transition: 0.5s;
+  cursor: default;
 }
 
 .overlay-content-Right {

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import GoogleFontLoader from 'react-google-font-loader';
 import { IconContext } from "react-icons"
-import { FiEye } from "react-icons/fi"
+import { FiEye, FiGithub } from "react-icons/fi"
 import { FaNodeJs } from "react-icons/fa"
 import { SiJavascript, SiBootstrap, SiTypescript, SiReact, SiMysql, SiCsswizardry, SiHtml5, SiWix } from "react-icons/si"
 
@@ -32,15 +32,16 @@ function ProjectCard({ project }) {
             />
 
             <div className="custom-card border-custom-light">
-                <div className="name py-2 text-center">
+                <div className="name py-2 text-center" style={{ cursor: "default" }}>
                     {project.name}
                 </div>
-                <div className="row justify-content-center ">
+                <div className="row justify-content-center" style={{ cursor: "pointer" }}>
+                    <a href={project.git} rel="noreferrer" target="_blank" className="icon text-orange"><FiGithub /></a>
                     <div onClick={handleClick} className="text-orange show-text px-3 my-3">{show ? 'Show Project' : 'Show Tech Used'}</div>
                 </div>
                 {show ?
                     <IconContext.Provider value={{ style: { fontSize: '30px', opacity: "0.75" } }}>
-                        <div className="text-center mt-5 ">
+                        <div className="text-center mt-5">
                             {project.id === 1 ?
                                 <div className="fade_effect">
                                     <span style={{ color: '#cdb22f' }}><SiJavascript /></span>
@@ -97,7 +98,7 @@ function ProjectCard({ project }) {
                                 </div> : ''}
                         </div>
                     </IconContext.Provider>
-                    : <div className="description p-2 fade_effect"> {project.description} </div>}
+                    : <div className="description p-2 fade_effect" style={{ cursor: "default" }}> {project.description} </div>}
                 <a
                     target="_blank" href={project.url} rel="noreferrer"
                     className="text-center px-4 py-2 bg- icon">
