@@ -100,7 +100,7 @@ const NavLayout = styled.div`
 }
 
 @media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
+  .overlay .left {font-size: 20px}
   .overlay .closebtn {
   font-size: 40px;
   top: 15px;
