@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, BrowserRouter, Switch, Route } from 'react-router-dom';
 import PrivateRoute from './components/PrivateRoute'
 import Home from './views/Home';
 import Projects from './views/Projects';
@@ -9,24 +9,25 @@ import About from './views/About';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
-        <PrivateRoute exact path={'/'}>
+        <PrivateRoute exact path={process.env.PUBLIC_URL + '/'}>
           <Home />
         </PrivateRoute>
-        <PrivateRoute exact path={'/projects'}>
+        <PrivateRoute exact path={process.env.PUBLIC_URL + '/projects'}>
           <Projects />
         </PrivateRoute>
-        <PrivateRoute exact path={'/contact'}>
+        <PrivateRoute exact path={process.env.PUBLIC_URL + '/contact'}>
           <Contact />
         </PrivateRoute>
-        <PrivateRoute exact path={'/about'}>
+        <PrivateRoute exact path={process.env.PUBLIC_URL + '/about'}>
           <About />
         </PrivateRoute>
       </Switch>
       <Route path="*">
+        <Home />
       </Route>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
