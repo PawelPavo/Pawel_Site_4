@@ -123,11 +123,11 @@ const PageStyle = styled.div`
     }
 }
 
-@media (max-width: 576px) { 
+/* @media (max-width: 576px) { 
     .name-box {
         font-size: 6vw;
     }   
-}
+} */
 
 `
 
