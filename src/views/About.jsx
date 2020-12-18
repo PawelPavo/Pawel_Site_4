@@ -32,10 +32,10 @@ function About() {
                             <img className="image" src="https://news-api.s3.us-east-2.amazonaws.com/profile.jpg" alt="Pawel_Jaskolski_image" />
                         </div>
                         <div className="col-md-6 mt-5">
-                            <h1 className="hello-text">
+                            <h1 className="hello-text text-white">
                                 I'm Pawel, a full-stack web developer working as a <span>"Coder-For-Hire"</span>  in sunny Fort Lauderdale, Florida.
                             </h1>
-                            <div className="about-text mt-3">
+                            <div className="about-text mt-3 text-white">
                                 <h3>
                                     I am an avid problem solver. I believe this quality is what makes me an excellent web developer.
                                 </h3>
