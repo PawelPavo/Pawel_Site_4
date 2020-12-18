@@ -26,38 +26,36 @@ function About() {
                 <div className="row text-white p-3">
                     <Navigation />
                 </div>
-                <div className="container">
-                    <div className="row mt-5 justify-content-center ">
-                        <div className="col-md-6">
-                            <img className="image" src="https://news-api.s3.us-east-2.amazonaws.com/profile.jpg" alt="Pawel_Jaskolski_image" />
-                        </div>
-                        <div className="col-md-6 mt-5">
-                            <h1 className="hello-text text-white">
-                                I'm Pawel, a full-stack web developer working as a <span>"Coder-For-Hire"</span>  in sunny Fort Lauderdale, Florida.
+                <div className="row mt-5 justify-content-center ">
+                    <div className="col-md-6">
+                        <img className="image" src="https://news-api.s3.us-east-2.amazonaws.com/profile.jpg" alt="Pawel_Jaskolski_image" />
+                    </div>
+                    <div className="col-md-6 mt-5">
+                        <h1 className="hello-text text-white">
+                            I'm Pawel, a full-stack web developer working as a <span>"Coder-For-Hire"</span>  in sunny Fort Lauderdale, Florida.
                             </h1>
-                            <div className="about-text mt-3 text-white">
-                                <h3>
-                                    I am an avid problem solver. I believe this quality is what makes me an excellent web developer.
+                        <div className="about-text mt-3 text-white">
+                            <h3>
+                                I am an avid problem solver. I believe this quality is what makes me an excellent web developer.
                                 </h3>
-                                <h3 className="mt-3">
-                                    I am a hardworking individual who brings passion and insight into everything I do.
+                            <h3 className="mt-3">
+                                I am a hardworking individual who brings passion and insight into everything I do.
                                 </h3>
-                                <h3 className="mt-3">
-                                    In my free time, I enjoy researching and investing in the stock market, while maybe sipping on a Jai Alai (my favorite beer). I also enjoy going out to different restaurants trying to find the best fried calamari with my favorite human!
+                            <h3 className="mt-3">
+                                In my free time, I enjoy researching and investing in the stock market, while maybe sipping on a Jai Alai (my favorite beer). I also enjoy going out to different restaurants trying to find the best fried calamari with my favorite human!
                                 </h3>
-                                <h3 className="mt-3">
-                                    For a full scoop of my work experiance please check out
+                            <h3 className="mt-3">
+                                For a full scoop of my work experiance please check out
                                     <a href="https://news-api.s3.us-east-2.amazonaws.com/Pawel+SoftDev+Resume+August+20+AWS.pdf"
-                                        rel="noreferrer" target="_blank" className="icon text-orange"> my resume <FaFilePdf /></a>
-                                </h3>
-                            </div>
+                                    rel="noreferrer" target="_blank" className="icon text-orange"> my resume <FaFilePdf /></a>
+                            </h3>
                         </div>
                     </div>
-                    <div className="row justify-content-center py-5">
-                        <div className="col-auto text-white">
-                            <div type="button" className="border text-white">
-                                <Right />
-                            </div>
+                </div>
+                <div className="row justify-content-center py-5">
+                    <div className="col-auto text-white">
+                        <div type="button" className="border text-white">
+                            <Right />
                         </div>
                     </div>
                 </div>
