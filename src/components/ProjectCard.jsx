@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import GoogleFontLoader from 'react-google-font-loader';
 import { IconContext } from "react-icons"
-import { FiEye, FiGithub } from "react-icons/fi"
+import { FiEye, FiGithub, FiCamera } from "react-icons/fi"
 import { FaNodeJs } from "react-icons/fa"
 import { SiJavascript, SiBootstrap, SiTypescript, SiReact, SiMysql, SiCsswizardry, SiHtml5, SiWix } from "react-icons/si"
 
@@ -36,8 +36,15 @@ function ProjectCard({ project }) {
                     {project.name}
                 </div>
                 <div className="row justify-content-center" style={{ cursor: "pointer" }}>
-                    <a href={project.git} rel="noreferrer" target="_blank" className="text-orange"><FiGithub /></a>
-                    <div onClick={handleClick} className="text-orange show-text px-3 my-3">{show ? 'Show Project' : 'Show Tech Used'}</div>
+                    <h5 className="my-auto top-icon">
+                        <a href={project.git} rel="noreferrer" target="_blank" className="text-orange my-auto"><FiGithub /></a>
+                    </h5>
+                    <div className="my-auto mx-3">
+                        <div onClick={handleClick} className="text-orange show-text my-3 px-2">{show ? 'Show Project' : 'Show Tech Used'}</div>
+                    </div>
+                    <h5 className="my-auto top-icon">
+                        <a href={project.images} rel="noreferrer" target="_blank" className="text-orange my-auto"><FiCamera /></a>
+                    </h5>
                 </div>
                 {show ?
                     <IconContext.Provider value={{ style: { fontSize: '30px', opacity: "0.75" } }}>
@@ -174,9 +181,23 @@ const ProjectLayout = styled.div`
 .icon:hover {
     background-color: white;
 }
+.top-icon {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.top-icon:hover {
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+}
 
 .fade_effect {
     animation: blink 1s linear 1;
+    
 }
 
 @keyframes blink{

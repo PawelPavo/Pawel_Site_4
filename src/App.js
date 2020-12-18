@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch } from 'react-router-dom';
 import PrivateRoute from './components/PrivateRoute'
 import Home from './views/Home';
 import Projects from './views/Projects';
