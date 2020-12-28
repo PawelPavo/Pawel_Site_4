@@ -31,18 +31,16 @@ function Contact() {
                         <div>OK, LET’S CREATE</div>
                         <div>SOMETHING GREAT</div>
                     </div>
-                    <h5 style={{ cursor: "default" }} className="text-white pt-3 font-weight-lighter par-text">If you like my work and have a project in mind, just send me a direct message @ 
+                    <h5 style={{ cursor: "default" }} className="text-white pt-3 font-weight-lighter par-text">If you like my work and have a project in mind, just send me a direct message @
                         <span>
-                            <a style={{textDecoration: "none"}} className="text-orange" href="mailto:pjpavo@gmail.com?subject=I found your website and now..." rel="noreferrer" target="_blank"> pjpavo@gmail.com 
+                            <a style={{ textDecoration: "none" }} className="text-orange" href="mailto:pjpavo@gmail.com?subject=I found your website and now..." rel="noreferrer" target="_blank"> pjpavo@gmail.com
                             </a>
                         </span> or contact me on social media listed below.</h5>
-                    <div className="row mt-3">
-                        <div className="col">
-                            <a href="https://www.linkedin.com/in/pawel-jaskolski-995323b3/" rel="noreferrer" target="_blank" className="icon text-orange"><AiOutlineLinkedin /></a>
-                            <a href="https://www.instagram.com/pifpavchio/" rel="noreferrer" target="_blank" className="text-orange icon mx-5"><FiInstagram /></a>
-                            <a href="https://github.com/PawelPavo" rel="noreferrer" target="_blank" className="icon text-orange"><FiGithub /></a>
-                            <a href="mailto:pjpavo@gmail.com?subject=I found your website and now..." rel="noreferrer" target="_blank" className="icon text-orange mx-5"><FiMail /></a>
-                        </div>
+                    <div className="row ml-2 mt-3">
+                        <a href="https://www.linkedin.com/in/pawel-jaskolski-995323b3/" rel="noreferrer" target="_blank" className="icon text-orange ml-1"><AiOutlineLinkedin /></a>
+                        <a href="https://www.instagram.com/pifpavchio/" rel="noreferrer" target="_blank" className="text-orange icon mx-5"><FiInstagram /></a>
+                        <a href="https://github.com/PawelPavo" rel="noreferrer" target="_blank" className="icon text-orange"><FiGithub /></a>
+                        <a href="mailto:pjpavo@gmail.com?subject=I found your website and now..." rel="noreferrer" target="_blank" className="icon text-orange mx-5"><FiMail /></a>
                     </div>
                 </div>
             </div>
@@ -83,9 +81,15 @@ const PageStyle = styled.div`
 }
 
 .icon {
+    text-decoration: none;
     font-size: 3vw;
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
+}
+
+.icon:hover {
+    color: white !important;
+    transform: scale(1.1);
 }
 
 @media (max-width: 576px) { 

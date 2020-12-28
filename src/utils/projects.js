@@ -5,7 +5,8 @@ export const ProjectsArray = [
         description: "A bookstore build with wix and custom JavaScript which includes full checkout, book inventory, as well as search bar. This project is build with customers directions and content. It is deployed with Wix.",
         url: "https://www.xolobooks.com/",
         git: "https://github.com/PawelPavo",
-        images: [{ source: 'https://news-api.s3.us-east-2.amazonaws.com/MeEyesClosed2.png' }]
+        images: [{ source: 'https://news-api.s3.us-east-2.amazonaws.com/MeEyesOpen2.png' }, { source: 'https://news-api.s3.us-east-2.amazonaws.com/MeEyesClosed2.png' }]
+
     },
     {
         id: 2,

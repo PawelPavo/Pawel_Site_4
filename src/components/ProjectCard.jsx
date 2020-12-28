@@ -39,11 +39,11 @@ function ProjectCard({ project }) {
                     <h5 className="my-auto top-icon">
                         <a href={project.git} rel="noreferrer" target="_blank" className="text-orange my-auto"><FiGithub /></a>
                     </h5>
-                    <div className="my-auto mx-3">
+                    <div className="my-auto mx-3 show-text-box">
                         <div onClick={handleClick} className="text-orange show-text my-3 px-2">{show ? 'Show Project' : 'Show Tech Used'}</div>
                     </div>
                     <h5 className="my-auto top-icon">
-                        <a href={project.images} rel="noreferrer" target="_blank" className="text-orange my-auto"><FiCamera /></a>
+                        <a href={project.images[0].source} rel="noreferrer" target="_blank" className="text-orange my-auto"><FiCamera /></a>
                     </h5>
                 </div>
                 {show ?
@@ -152,14 +152,17 @@ const ProjectLayout = styled.div`
     font-family: 'Raleway';
     color: #aaa8a8;
 }
+.show-text-box {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
 
+}
 .show-text {
     transition: all .6s ease;
     -webkit-transition: all .6s ease;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
+    /* border-left: 1px solid white;
+    border-right: 1px solid white; */
     font-family: 'Raleway';
-    
 }
 
 .show-text:hover {
