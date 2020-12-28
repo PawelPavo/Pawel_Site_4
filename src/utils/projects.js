@@ -19,7 +19,7 @@ export const ProjectsArray = [
     {
         id: 3,
         name: "The Pathfinder",
-        description: "This is a game made with Luke Przekwas using ReacJS with Bootstrap and Styled-Components. It is a fully functional game deployed with github pages.",
+        description: "This is a game made with Luke Przekwas using ReactJS with Bootstrap and Styled-Components. It is a fully functional game deployed with Github pages.",
         url: "https://przekwas.github.io/help-pathfinder-pawel/",
         git: "https://github.com/PawelPavo/ThePathfinder",
         images: [{ source: 'https://news-api.s3.us-east-2.amazonaws.com/MeEyesOpen2.png' }, { source: 'https://news-api.s3.us-east-2.amazonaws.com/MeEyesClosed2.png' }]
