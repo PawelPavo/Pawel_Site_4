@@ -6,6 +6,7 @@ import TagCard from '../components/TagCard';
 function MyNPM() {
     const [buttonText, setButtonText] = React.useState('Copy')
     const [tagArray] = React.useState(["npm i"])
+    const [isTS, setTS] = React.useState(false);
 
     const addText = (event) => {
         var NPMtag = event.target || event.srcElement;
@@ -16,6 +17,18 @@ function MyNPM() {
         } else {
             tagArray.push(NPMtag.textContent)
         }
+
+        if (isTS) {
+            let tsPackage = '@types/' + NPMtag.textContent
+            let tsFound = tagArray.indexOf(tsPackage);
+            if (tsFound !== -1) {
+                tagArray.splice(tsFound, 1);
+                tsFound = tagArray.indexOf(tsPackage);
+            } else {
+                tagArray.push(tsPackage)
+            }
+        }
+
         var textArea = document.getElementById("floatingTextarea2");
         textArea.value = tagArray.join(" ")
     }
@@ -55,6 +68,7 @@ function MyNPM() {
                 </div>
                 <div className="row justify-content-center my-3">
                     <button className="btn-orange btn-lg" id="copyButton" onClick={onSubmit}> {buttonText}</button>
+                    <button className="btn-orange btn-lg mx-2" onClick={() => setTS(!isTS)}>{isTS ? ' Set back to vanilla JS' : 'Set to TS project'}</button>
                 </div>
                 <div className="form-floating mb-5">
                     <textarea defaultValue="npm i" className="form-control" id="floatingTextarea2" style={{ height: "100px" }}>
