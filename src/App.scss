@@ -4,6 +4,10 @@ $theme-colors: (
     'custom-light': #aaa8a8
 );
 
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+
 @import '~bootstrap/scss/bootstrap';
 
 

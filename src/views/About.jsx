@@ -4,6 +4,8 @@ import Navigation from '../components/Navigation';
 import GoogleFontLoader from 'react-google-font-loader';
 import Right from '../components/Right';
 import { FaFilePdf } from 'react-icons/fa';
+import { Link } from 'react-router-dom'
+
 
 
 function About() {
@@ -31,7 +33,7 @@ function About() {
                         <div className="col-md-6">
                             <img className="image" src="https://news-api.s3.us-east-2.amazonaws.com/profile.jpg" alt="Pawel_Jaskolski_image" />
                         </div>
-                        <div className="col-md-6 mt-5" style={{cursor: "default"}}>
+                        <div className="col-md-6 mt-5" style={{ cursor: "default" }}>
                             <div className="hello-text">
                                 I'm Pawel, a full-stack web developer working as a <span>"Coder-For-Hire"</span>  in sunny Fort Lauderdale, Florida.
                             </div>
@@ -46,7 +48,7 @@ function About() {
                                     In my free time, I enjoy researching and investing in the stock market, while maybe sipping on a Jai Alai (my favorite beer). I also enjoy going out to different restaurants trying to find the best fried calamari with my favorite human!
                                 </div>
                                 <div className="mt-3">
-                                    For a full scoop of my work experience please check out 
+                                    For a full scoop of my work experience please check out
                                     <a href="https://news-api.s3.us-east-2.amazonaws.com/Pawel+SoftDev+Resume+August+20+AWS.pdf"
                                         rel="noreferrer" target="_blank" className="icon text-orange"> my resume <FaFilePdf /></a>
                                 </div>
@@ -60,6 +62,7 @@ function About() {
                             </div>
                         </div>
                     </div>
+                    <Link className="" to={process.env.PUBLIC_URL + '/npm'}>NPM's</Link>
                 </div>
             </div>
         </PageStyle>

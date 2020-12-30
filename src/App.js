@@ -5,6 +5,8 @@ import Home from './views/Home';
 import Projects from './views/Projects';
 import Contact from './views/Contact';
 import About from './views/About';
+import MyNPM from './views/MyNPM';
+
 
 function App() {
   return (
@@ -21,6 +23,9 @@ function App() {
         </PrivateRoute>
         <PrivateRoute exact path={process.env.PUBLIC_URL + '/about'}>
           <About />
+        </PrivateRoute>
+        <PrivateRoute exact path={process.env.PUBLIC_URL + '/npm'}>
+          <MyNPM />
         </PrivateRoute>
       </Switch>
     </HashRouter>
