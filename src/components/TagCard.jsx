@@ -13,7 +13,7 @@ function TagCard({ npm }) {
 
     return (
         <TagStyle>
-            <div onClick={clickShow} className={`row justify-content-between border border-secondary px-3 py-1 m-2 ${show ? 'selected-tag bg-custom-light border-custom-light' : 'tag'}`}>
+            <div onClick={clickShow} style={{cursor: "pointer"}} className={`row justify-content-between border border-secondary px-3 py-1 m-2 ${show ? 'selected-tag bg-custom-light border-custom-light' : 'tag'}`}>
                 <small>
                     {npm}
                 </small>
