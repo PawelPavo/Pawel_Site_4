@@ -48,7 +48,7 @@ function MyNPM() {
                 </div>
                 <div className="row mt-3 justify-content-center">
                     {Npms.map(npm => (
-                        <div key={npm} className="col-md-4 text-center" onClick={addText}>
+                        <div key={npm} className="col-lg-3 text-center" onClick={addText}>
                             <TagCard key={npm} npm={npm} />
                         </div>
                     ))}
