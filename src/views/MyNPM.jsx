@@ -43,7 +43,7 @@ function MyNPM() {
                         <h1 className="text-light">NPM's</h1>
                     </div>
                     <div className="col-md-12 text-center">
-                        <h6 className="text-light" >Please select NPM's you would like to install and click the copy button</h6>
+                        <h6 className="text-light" >Please select packages you would like to install and click the copy button</h6>
                     </div>
                 </div>
                 <div className="row mt-3 justify-content-center">
