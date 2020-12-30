@@ -108,9 +108,9 @@ function ProjectCard({ project }) {
                     : <div className="description p-2 fade_effect" style={{ cursor: "default" }}> {project.description} </div>}
                 <a
                     target="_blank" href={project.url} rel="noreferrer"
-                    className="text-center px-4 py-2 bg- icon">
-                    <IconContext.Provider value={{ style: { fontSize: '20px', opacity: "1" } }}>
-                        <small className="text-orange"><FiEye /></small>
+                    className="text-center px-4 py-2 bg- icon" style={{textDecoration: "none"}}>
+                    <IconContext.Provider value={{ style: { fontSize: '25px', opacity: "1" } }}>
+                        <small className="text-custom-primary">Open</small>
                     </IconContext.Provider>
                 </a>
             </div>
