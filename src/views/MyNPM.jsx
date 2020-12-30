@@ -20,6 +20,10 @@ function MyNPM() {
 
         if (isTS) {
             let tsPackage = '@types/' + NPMtag.textContent
+            if (NPMtag.textContent.includes('@types/')) { // If you select an @types/* package while in TS mode,
+                tsPackage = tsPackage.replaceAll('@types/', '') // change tsPackage to represent the regular JS module
+            }
+            
             let tsFound = tagArray.indexOf(tsPackage);
             if (tsFound !== -1) {
                 tagArray.splice(tsFound, 1);
