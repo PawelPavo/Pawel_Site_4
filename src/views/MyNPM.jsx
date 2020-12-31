@@ -7,17 +7,19 @@ import { Npms } from '../utils/npms'
 function MyNPM() {
     const [buttonText, setButtonText] = React.useState('Copy')
     const [tagArray] = React.useState(["npm i"])
-    const [isTS, setTS] = React.useState(false);
-    const [isJS, setJS] = React.useState(false);
+    const [isTS, setTS] = React.useState(true);
+    const [isJS, setJS] = React.useState(true);
     const [isDisabled, setDisabled] = React.useState(true)
 
     const setTypescript = () => {
-        setJS(!isJS)
+        setTS(true)
+        setJS(false)
         setDisabled(false)
     }
 
     const setJavascript = () => {
-        setTS(!isTS)
+        setTS(false)
+        setJS(true)
         setDisabled(false)
     }
 
@@ -76,8 +78,8 @@ function MyNPM() {
                         <h6 className="text-light" >Please select project packages you would like to install and click the copy button</h6>
                     </div>
                     <div className="row justify-content-center my-3">
-                        <button className={`${isTS ? 'btn-custom-light btn-lg mx-5 disabledbutton' : 'btn-custom-light btn-lg mx-5 '}`} onClick={setTypescript}>JavaScript</button>
-                        <button className={`${isJS ? 'btn-custom-light btn-lg mx-5 disabledbutton' : 'btn-custom-light btn-lg mx-5 '}`} onClick={setJavascript}>Typescript</button>
+                        <button className={`${!isJS ? 'btn-custom-light btn-lg mx-5 disabledbutton' : 'btn-custom-light btn-lg mx-5 '}`} onClick={setJavascript}>Javascript</button>
+                        <button className={`${!isTS ? 'btn-custom-light btn-lg mx-5 disabledbutton' : 'btn-custom-light btn-lg mx-5 '}`} onClick={setTypescript}>Typescript</button>
                     </div>
                 </div>
                 <div id="tags" className={`${isDisabled ? 'row mt-3 justify-content-center disabledbutton' : 'row mt-3 justify-content-center'}`}>
