@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashRouter, Switch } from 'react-router-dom';
 import PrivateRoute from './components/PrivateRoute'
+import NPMRoute from './components/NPMRoute'
 import Home from './views/Home';
 import Projects from './views/Projects';
 import Contact from './views/Contact';
@@ -24,9 +25,9 @@ function App() {
         <PrivateRoute exact path={process.env.PUBLIC_URL + '/about'}>
           <About />
         </PrivateRoute>
-        <PrivateRoute exact path={process.env.PUBLIC_URL + '/npm'}>
+        <NPMRoute exact path={process.env.PUBLIC_URL + '/npm'}>
           <MyNPM />
-        </PrivateRoute>
+        </NPMRoute>
       </Switch>
     </HashRouter>
   );

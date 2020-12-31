@@ -32,7 +32,6 @@ function MyNPM() {
         } else {
             tagArray.push(NPMtag.textContent)
         }
-
         if (isTS) {
             let tsPackage = '@types/' + NPMtag.textContent
             if (NPMtag.textContent.includes('@types/')) { // If you select an @types/* package while in TS mode,
@@ -47,9 +46,9 @@ function MyNPM() {
                 tagArray.push(tsPackage)
             }
         }
-
         var textArea = document.getElementById("floatingTextarea2");
         textArea.value = tagArray.join(" ")
+
     }
 
     const onSubmit = () => {
@@ -61,6 +60,10 @@ function MyNPM() {
             setButtonText('Copy Again!')
 
         }, 3000);
+    }
+
+    const onRest = () => {
+        window.location.reload();
     }
 
     return (
@@ -90,6 +93,7 @@ function MyNPM() {
                     ))}
                 </div>
                 <div className="row justify-content-center my-3">
+                <button className="btn-warning btn-lg mx-5 px-5" id="copyButton" onClick={onRest}> Rest All</button>
                     <button className="btn-success btn-lg mx-5 px-5" id="copyButton" onClick={onSubmit}> {buttonText}</button>
                 </div>
                 <div className="form-floating mb-5">
