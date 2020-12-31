@@ -73,12 +73,16 @@ function MyNPM() {
                     <Navigation />
                 </div>
                 <div className="container"></div>
-                <div className="row justify-content-center">
+                <div className="row" style={{ cursor: "default" }}>
                     <div className="col-md-12 text-center">
                         <h1 className="text-light">NPM's</h1>
                     </div>
-                    <div className="col-md-12 text-center">
-                        <h6 className="text-light" >Please select project packages you would like to install and click the copy button</h6>
+                </div>
+                <div className="row justify-content-center" style={{ cursor: "default" }}>
+                    <div className="col-auto">
+                            <h6 className="text-light"><span className="text-orange">Step 1:</span> Choose a language</h6>
+                            <h6 className="text-light"><span className="text-orange">Step 2:</span> Select your packages</h6>
+                            <h6 className="text-light"><span className="text-orange">Step 3:</span> Click the "Copy" button</h6>
                     </div>
                 </div>
                 <div className="row justify-content-center my-3">
