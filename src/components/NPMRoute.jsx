@@ -16,7 +16,7 @@ function NPMRoute(props) {
 
         return (
             <div className="min-vh-100 d-flex justify-content-center align-items-center bg-white">
-                <img src={GIF} alt=""/>
+                <img src={GIF} alt="ResetGIF" style={{height: "auto", width: "400px"}}/>
             </div>
         );
     }
