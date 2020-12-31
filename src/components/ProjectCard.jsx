@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import GoogleFontLoader from 'react-google-font-loader';
 import { IconContext } from "react-icons"
-import { FiEye, FiGithub, FiCamera } from "react-icons/fi"
+import { FiGithub, FiCamera } from "react-icons/fi"
 import { FaNodeJs } from "react-icons/fa"
 import { SiJavascript, SiBootstrap, SiTypescript, SiReact, SiMysql, SiCsswizardry, SiHtml5, SiWix } from "react-icons/si"
 
