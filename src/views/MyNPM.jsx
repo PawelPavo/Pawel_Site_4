@@ -80,10 +80,10 @@ function MyNPM() {
                     <div className="col-md-12 text-center">
                         <h6 className="text-light" >Please select project packages you would like to install and click the copy button</h6>
                     </div>
-                    <div className="row justify-content-center my-3">
-                        <button className={`${!isJS ? 'btn-custom-light btn-lg mx-5 disabledbutton' : 'btn-custom-light btn-lg mx-5 '}`} onClick={setJavascript}>Javascript</button>
-                        <button className={`${!isTS ? 'btn-custom-light btn-lg mx-5 disabledbutton' : 'btn-custom-light btn-lg mx-5 '}`} onClick={setTypescript}>Typescript</button>
-                    </div>
+                </div>
+                <div className="row justify-content-center my-3">
+                    <button className={`${!isJS ? 'btn-custom-light mx-4 btn disabledbutton' : 'btn-custom-light mx-4 btn '}`} onClick={setJavascript}>Javascript</button>
+                    <button className={`${!isTS ? 'btn-custom-light mx-4 btn disabledbutton' : 'btn-custom-light mx-4 btn '}`} onClick={setTypescript}>Typescript</button>
                 </div>
                 <div id="tags" className={`${isDisabled ? 'row mt-3 justify-content-center disabledbutton' : 'row mt-3 justify-content-center'}`}>
                     {Npms.map(npm => (
@@ -92,9 +92,9 @@ function MyNPM() {
                         </div>
                     ))}
                 </div>
-                <div className="row justify-content-center my-3">
-                <button className="btn-warning btn-lg mx-5 px-5" id="copyButton" onClick={onRest}> Rest All</button>
-                    <button className="btn-success btn-lg mx-5 px-5" id="copyButton" onClick={onSubmit}> {buttonText}</button>
+                <div className="row justify-content-around mb-4">
+                    <button className="btn btn-warning mt-3 " style={{ width: "200px" }} id="restButton" onClick={onRest}> Reset All</button>
+                    <button className="btn btn-success mt-3" style={{ width: "200px" }} id="copyButton" onClick={onSubmit}> {buttonText}</button>
                 </div>
                 <div className="form-floating mb-5">
                     <textarea defaultValue="npm i" className="form-control" id="floatingTextarea2" style={{ height: "100px" }}>
