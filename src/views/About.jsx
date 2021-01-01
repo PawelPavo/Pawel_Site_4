@@ -31,7 +31,7 @@ function About() {
                 <div className="container">
                     <div className="row mt-5 justify-content-center ">
                         <div className="col-md-6">
-                            <img className="image" src="https://news-api.s3.us-east-2.amazonaws.com/profile.jpg" alt="Pawel_Jaskolski_image" />
+                            <img style={{width: "500px", height: "auto"}} className="image" src="https://news-api.s3.us-east-2.amazonaws.com/me_website.jpg" alt="Pawel_Jaskolski_image" />
                         </div>
                         <div className="col-md-6 mt-5" style={{ cursor: "default" }}>
                             <div className="hello-text">
@@ -81,7 +81,7 @@ const PageStyle = styled.div`
 }
 
 img {
-    transform: rotate(-90deg);
+    /* transform: rotate(-90deg); */
     max-width: 100%;
     max-height: 100%;
     border-radius: 25px;
