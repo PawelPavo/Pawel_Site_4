@@ -81,14 +81,17 @@ const PageStyle = styled.div`
 }
 
 img {
-    /* transform: rotate(-90deg); */
     max-width: 100%;
     max-height: 100%;
     border-radius: 25px;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+}
+img:hover {
+    -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0);
 }
 
 .hello-text {
