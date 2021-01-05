@@ -5,7 +5,7 @@ export const ProjectsArray = [
         description: "A bookstore build with wix and custom JavaScript which includes full checkout, book inventory, as well as search bar. This project is build with customers directions and content. It is deployed with Wix.",
         url: "https://www.xolobooks.com/",
         git: "https://github.com/PawelPavo",
-        images: ['https://news-api.s3.us-east-2.amazonaws.com/XoloBooks.png' ]
+        images: ['https://news-api.s3.us-east-2.amazonaws.com/XoloBooks.png', 'https://news-api.s3.us-east-2.amazonaws.com/XoloBooks_Bookstore.png', 'https://news-api.s3.us-east-2.amazonaws.com/XoloBooks_SignUp.png', 'https://news-api.s3.us-east-2.amazonaws.com/XoloBooks_Why_Used.png'  ]
 
     },
     {
@@ -14,7 +14,7 @@ export const ProjectsArray = [
         description: "This site is made with Create React App with TypeScript. It uses a combination of Bootstrap and Styled-Components. It does not have a backend because it is deployed with github pages with multi-route solution.",
         url: "https://pawelpavo.github.io/WiltonDrainPro/#/WiltonDrainPro/",
         git: "https://github.com/PawelPavo/WiltonDrainPro",
-        images: [ 'https://news-api.s3.us-east-2.amazonaws.com/WiltonDrainPro.png' ]
+        images: [ 'https://news-api.s3.us-east-2.amazonaws.com/WiltionDrianPro_Home.png', 'https://news-api.s3.us-east-2.amazonaws.com/WiltonDrainPro.png', 'https://news-api.s3.us-east-2.amazonaws.com/WiltonDrainPro_Contact.png'  ]
     },
     {
         id: 3,
@@ -22,7 +22,7 @@ export const ProjectsArray = [
         description: "This is a game made with Luke Przekwas using ReactJS with Bootstrap and Styled-Components. It is a fully functional game deployed with Github pages.",
         url: "https://przekwas.github.io/help-pathfinder-pawel/",
         git: "https://github.com/PawelPavo/ThePathfinder",
-        images: [ 'https://news-api.s3.us-east-2.amazonaws.com/Pathfinder.png' ]
+        images: [ 'https://news-api.s3.us-east-2.amazonaws.com/Pathfinder.png', 'https://news-api.s3.us-east-2.amazonaws.com/Pathfinder_DarkMode.png' ]
     },
     {
         id: 4,
@@ -47,7 +47,7 @@ export const ProjectsArray = [
         description: "This site is made with ReactJS, TypeScript without any routes. It is styled with Bootstrap, custom CSS and Styled-Components. It is made with anchor tag navigation. The site uses Heroku for deploynment.",
         url: "https://secret-ravine-28184.herokuapp.com/",
         git: "https://github.com/PawelPavo/my-site-2",
-        images: [ 'https://news-api.s3.us-east-2.amazonaws.com/SplashPageMock.png' ]
+        images: [ 'https://news-api.s3.us-east-2.amazonaws.com/SplashPageMock.png', 'https://news-api.s3.us-east-2.amazonaws.com/SplashPageMock_Home.png', 'https://news-api.s3.us-east-2.amazonaws.com/SplashPageMock_Projects.png' ]
     },
     {
         id: 7,
@@ -55,7 +55,7 @@ export const ProjectsArray = [
         description: "This site is made with ReactJS, TypeScript without any routes. It is styled with Bootstrap, custom CSS and Styled-Components. It is made with anchor tag navigation. The site uses Heroku for deploynment.",
         url: "https://floating-retreat-73992.herokuapp.com/",
         git: "https://github.com/PawelPavo/Portfolio-Infinite-Scroll",
-        images: [ 'https://news-api.s3.us-east-2.amazonaws.com/SingleScrollMock.png' ]
+        images: [ 'https://news-api.s3.us-east-2.amazonaws.com/SingleScrollMock.png', 'https://news-api.s3.us-east-2.amazonaws.com/SingleScrollMock_Bio.png', 'https://news-api.s3.us-east-2.amazonaws.com/SingleScrollMock_Contact.png' ]
     },
     {
         id: 8,
@@ -63,15 +63,15 @@ export const ProjectsArray = [
         description: "This site is made with ReactJS, TypeScript with CRUD routes hooked to MySQL. It is styled with Bootstrap, custom CSS along with light and dark theme toggle.",
         url: "https://damp-headland-11870.herokuapp.com/",
         git: "https://github.com/PawelPavo/resume_site",
-        images: [ 'https://news-api.s3.us-east-2.amazonaws.com/Light_Dark_theme_1_Theme_OFF.png' ,  'https://news-api.s3.us-east-2.amazonaws.com/Light_Dark_theme_1_Theme_ON.png' ]
+        images: [ 'https://news-api.s3.us-east-2.amazonaws.com/Light_Dark_theme_1_Theme_OFF.png' ,  'https://news-api.s3.us-east-2.amazonaws.com/Light_Dark_theme_1_Theme_ON.png', 'https://news-api.s3.us-east-2.amazonaws.com/Light_Dark_theme_1_Theme_OFF_Projects.png', 'https://news-api.s3.us-east-2.amazonaws.com/Light_Dark_theme_1_Theme_ON_Projects.png', 'https://news-api.s3.us-east-2.amazonaws.com/Light_Dark_theme_1_Theme_OFF_Contact.png', 'https://news-api.s3.us-east-2.amazonaws.com/Light_Dark_theme_1_Theme_ON_Contact.png', 'https://news-api.s3.us-east-2.amazonaws.com/Light_Dark_theme_1_Theme_OFF_Resume.png', 'https://news-api.s3.us-east-2.amazonaws.com/Light_Dark_theme_1_Theme_ON_Resume.png' ]
     },
     {
         id: 9,
         name: "Authentication",
-        description: "This site is made with ReactJS, SQL and Node. It is fully functional blog with Authentication and user Login. It tokenizes a user and encripts passwords.",
+        description: "This site is made with ReactJS, SQL and Node. It is fully functional blog with Authentication and user Login as well as fully functional comment feature. It tokenizes a user and encripts passwords.",
         url: "https://mighty-fortress-59305.herokuapp.com/blog",
         git: "https://github.com/PawelPavo/searchBar",
-        images: [ 'https://news-api.s3.us-east-2.amazonaws.com/CRUD_BLOG.png']
+        images: ['https://news-api.s3.us-east-2.amazonaws.com/CRUD_BLOG_Register.png', 'https://news-api.s3.us-east-2.amazonaws.com/CRUD_BLOG_Login.png', 'https://news-api.s3.us-east-2.amazonaws.com/CRUD_BLOG.png' , 'https://news-api.s3.us-east-2.amazonaws.com/CRUD_BLOG_View_Blog_2.png', 'https://news-api.s3.us-east-2.amazonaws.com/CRUD_BLOG_Comment.png', 'https://news-api.s3.us-east-2.amazonaws.com/CRUD_BLOG_Profile_Page.png']
     },
 ];
 
