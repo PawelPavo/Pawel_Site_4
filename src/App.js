@@ -7,6 +7,8 @@ import Projects from './views/Projects';
 import Contact from './views/Contact';
 import About from './views/About';
 import MyNPM from './views/MyNPM';
+import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
+
 
 
 function App() {

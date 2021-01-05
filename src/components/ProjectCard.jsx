@@ -2,9 +2,10 @@ import React from 'react'
 import styled from 'styled-components';
 import GoogleFontLoader from 'react-google-font-loader';
 import { IconContext } from "react-icons"
-import { FiGithub, FiCamera } from "react-icons/fi"
+import { FiGithub } from "react-icons/fi"
 import { FaNodeJs } from "react-icons/fa"
 import { SiJavascript, SiBootstrap, SiTypescript, SiReact, SiMysql, SiCsswizardry, SiHtml5, SiWix } from "react-icons/si"
+import GalleryComp from './GalleryComp';
 
 
 
@@ -43,7 +44,7 @@ function ProjectCard({ project }) {
                         <div onClick={handleClick} className="text-orange show-text my-3 px-2">{show ? 'Show Project' : 'Show Tech Used'}</div>
                     </div>
                     <h5 className="my-auto top-icon">
-                        <a href={project.images[0].source} rel="noreferrer" target="_blank" className="text-orange my-auto"><FiCamera /></a>
+                        <div rel="noreferrer" target="_blank" className="text-orange my-auto"><GalleryComp photos={project.images}/></div>
                     </h5>
                 </div>
                 {show ?
@@ -99,9 +100,9 @@ function ProjectCard({ project }) {
                                 </div> : ''}
                             {project.id === 9 ?
                                 <div className="fade_effect">
-                                    <span style={{ color: '#563493' }}><SiBootstrap /></span>
-                                    <span className="mx-5" style={{ color: '#016db3' }}><SiCsswizardry /></span>
                                     <span style={{ color: '#57d3f5' }}><SiReact /></span>
+                                    <span className="mx-5" style={{ color: '#03648a' }}><SiMysql /></span>
+                                    <span style={{ color: '#7cc909' }}><FaNodeJs /></span>
                                 </div> : ''}
                         </div>
                     </IconContext.Provider>

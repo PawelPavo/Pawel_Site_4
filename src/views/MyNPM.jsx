@@ -66,6 +66,8 @@ function MyNPM() {
         window.location.reload();
     }
 
+
+
     return (
         <TagStyle>
             <div className="container-fluid about">
