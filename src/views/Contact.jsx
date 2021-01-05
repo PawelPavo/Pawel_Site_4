@@ -33,7 +33,7 @@ function Contact() {
                     </div>
                     <h5 style={{ cursor: "default" }} className="text-white pt-3 font-weight-lighter par-text">If you like my work and have a project in mind, just send me a direct message @
                         <span>
-                            <a style={{ textDecoration: "none" }} className="text-orange" href="mailto:pjpavo@gmail.com?subject=I found your website and now..." rel="noreferrer" target="_blank"> pjpavo@gmail.com
+                            <a style={{ textDecoration: "none", color:"white" }} className="" href="mailto:pjpavo@gmail.com?subject=I found your website and now..." rel="noreferrer" target="_blank"> pjpavo@gmail.com
                             </a>
                         </span> or contact me on social media listed below.</h5>
                     <div className="row ml-2 mt-3">
@@ -68,7 +68,7 @@ const PageStyle = styled.div`
     color: white;
     font-size: 4.5vw;
     font-family: 'Raleway';
-    filter: drop-shadow(0.15rem 0.15rem 0.1rem rgba(248, 247, 247, 0.5));
+    filter: drop-shadow(0.10rem 0.10rem 0.1rem rgba(248, 247, 247, 0.5));
 
 }
 
