@@ -3,10 +3,8 @@ import styled from 'styled-components';
 import Navigation from '../components/Navigation';
 import GoogleFontLoader from 'react-google-font-loader';
 import Right from '../components/Right';
-import { FaFilePdf } from 'react-icons/fa';
+import { FaFilePdf, FaNpm } from 'react-icons/fa';
 import { Link } from 'react-router-dom'
-
-
 
 function About() {
     return (
@@ -55,14 +53,19 @@ function About() {
                             </div>
                         </div>
                     </div>
-                    <div className="row justify-content-center py-5">
+                    <div className="row justify-content-center pt-5">
                         <div className="col-auto">
                             <div className="border text-white">
                                 <Right />
                             </div>
                         </div>
                     </div>
-                    <Link className="" to={process.env.PUBLIC_URL + '/npm'}>NPM's</Link>
+                    <div className="row justify-content-center npmIcon">
+                        <div className="">
+                            <Link to={process.env.PUBLIC_URL + '/npm'}><span className="npmIcon"><FaNpm /></span></Link>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </PageStyle>
@@ -113,6 +116,18 @@ img:hover {
 .icon {
     font-weight: bold;
     text-decoration: none;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.npmIcon {
+    text-decoration:none;
+    color: #cb3837;
+    font-size: 100px;
+}
+
+.npmIcon:hover {
+    color: white;
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
 }

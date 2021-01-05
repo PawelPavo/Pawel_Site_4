@@ -3,6 +3,8 @@ import Navigation from '../components/Navigation';
 import TagCard from '../components/TagCard';
 import styled from 'styled-components';
 import { Npms } from '../utils/npms'
+import { FaNpm } from 'react-icons/fa';
+
 
 function MyNPM() {
     const [buttonText, setButtonText] = React.useState('Copy')
@@ -77,7 +79,7 @@ function MyNPM() {
                 <div className="container"></div>
                 <div className="row" style={{ cursor: "default" }}>
                     <div className="col-md-12 text-center">
-                        <h1 className="text-light">NPM's</h1>
+                        <div className=" display-1" style={{color: "#cb3837"}}><FaNpm /></div>
                     </div>
                 </div>
                 <div className="row justify-content-center" style={{ cursor: "default" }}>
