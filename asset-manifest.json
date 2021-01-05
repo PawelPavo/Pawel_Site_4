@@ -1,23 +1,26 @@
 {
   "files": {
     "main.css": "/Pawel_Site_4/static/css/main.2281e60c.chunk.css",
-    "main.js": "/Pawel_Site_4/static/js/main.7f2846ff.chunk.js",
-    "main.js.map": "/Pawel_Site_4/static/js/main.7f2846ff.chunk.js.map",
-    "runtime-main.js": "/Pawel_Site_4/static/js/runtime-main.ce36eef4.js",
-    "runtime-main.js.map": "/Pawel_Site_4/static/js/runtime-main.ce36eef4.js.map",
-    "static/js/2.81528759.chunk.js": "/Pawel_Site_4/static/js/2.81528759.chunk.js",
-    "static/js/2.81528759.chunk.js.map": "/Pawel_Site_4/static/js/2.81528759.chunk.js.map",
-    "static/js/3.d1694822.chunk.js": "/Pawel_Site_4/static/js/3.d1694822.chunk.js",
-    "static/js/3.d1694822.chunk.js.map": "/Pawel_Site_4/static/js/3.d1694822.chunk.js.map",
+    "main.js": "/Pawel_Site_4/static/js/main.2f5b49a9.chunk.js",
+    "main.js.map": "/Pawel_Site_4/static/js/main.2f5b49a9.chunk.js.map",
+    "runtime-main.js": "/Pawel_Site_4/static/js/runtime-main.121a210f.js",
+    "runtime-main.js.map": "/Pawel_Site_4/static/js/runtime-main.121a210f.js.map",
+    "static/css/2.ab18fb39.chunk.css": "/Pawel_Site_4/static/css/2.ab18fb39.chunk.css",
+    "static/js/2.56322e8b.chunk.js": "/Pawel_Site_4/static/js/2.56322e8b.chunk.js",
+    "static/js/2.56322e8b.chunk.js.map": "/Pawel_Site_4/static/js/2.56322e8b.chunk.js.map",
+    "static/js/3.b358ece2.chunk.js": "/Pawel_Site_4/static/js/3.b358ece2.chunk.js",
+    "static/js/3.b358ece2.chunk.js.map": "/Pawel_Site_4/static/js/3.b358ece2.chunk.js.map",
     "index.html": "/Pawel_Site_4/index.html",
+    "static/css/2.ab18fb39.chunk.css.map": "/Pawel_Site_4/static/css/2.ab18fb39.chunk.css.map",
     "static/css/main.2281e60c.chunk.css.map": "/Pawel_Site_4/static/css/main.2281e60c.chunk.css.map",
-    "static/js/2.81528759.chunk.js.LICENSE.txt": "/Pawel_Site_4/static/js/2.81528759.chunk.js.LICENSE.txt",
+    "static/js/2.56322e8b.chunk.js.LICENSE.txt": "/Pawel_Site_4/static/js/2.56322e8b.chunk.js.LICENSE.txt",
     "static/media/RestScreen.3f651cc8.gif": "/Pawel_Site_4/static/media/RestScreen.3f651cc8.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.ce36eef4.js",
-    "static/js/2.81528759.chunk.js",
+    "static/js/runtime-main.121a210f.js",
+    "static/css/2.ab18fb39.chunk.css",
+    "static/js/2.56322e8b.chunk.js",
     "static/css/main.2281e60c.chunk.css",
-    "static/js/main.7f2846ff.chunk.js"
+    "static/js/main.2f5b49a9.chunk.js"
   ]
 }
