@@ -61,9 +61,7 @@ function About() {
                         </div>
                     </div>
                     <div className="row justify-content-center npmIcon">
-                        <div className="">
-                            <Link to={process.env.PUBLIC_URL + '/npm'}><span className="npmIcon"><FaNpm /></span></Link>
-                        </div>
+                        <Link to={process.env.PUBLIC_URL + '/npm'}><span className="npmIcon"><FaNpm /></span></Link>
                     </div>
 
                 </div>
