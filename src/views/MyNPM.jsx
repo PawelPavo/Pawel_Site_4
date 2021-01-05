@@ -3,7 +3,7 @@ import Navigation from '../components/Navigation';
 import TagCard from '../components/TagCard';
 import styled from 'styled-components';
 import { Npms } from '../utils/npms'
-import { FaNpm } from 'react-icons/fa';
+import { FaNpm, FaExchangeAlt } from 'react-icons/fa';
 
 
 function MyNPM() {
@@ -14,14 +14,12 @@ function MyNPM() {
     const [isDisabled, setDisabled] = React.useState(true)
 
     const setTypescript = () => {
-        setTS(true)
-        setJS(false)
+        setJS(!isJS)
         setDisabled(false)
     }
 
     const setJavascript = () => {
-        setTS(false)
-        setJS(true)
+        setTS(!isTS)
         setDisabled(false)
     }
 
@@ -90,8 +88,8 @@ function MyNPM() {
                     </div>
                 </div>
                 <div className="row justify-content-center my-3">
-                    <button className={`${!isJS ? 'btn-custom-light mx-4 btn disabledbutton' : 'btn-custom-light mx-4 btn '}`} onClick={setJavascript}>Javascript</button>
-                    <button className={`${!isTS ? 'btn-custom-light mx-4 btn disabledbutton' : 'btn-custom-light mx-4 btn '}`} onClick={setTypescript}>Typescript</button>
+                    <button className={`${!isJS ? 'btn-custom-light mx-4 btn disabledbutton' : 'btn-custom-light mx-4 btn '}`} onClick={setJavascript}> {`${isTS ? "Javascript" : "Cancel" }`}</button>
+                    <button className={`${!isTS ? 'btn-custom-light mx-4 btn disabledbutton' : 'btn-custom-light mx-4 btn '}`} onClick={setTypescript}>{`${isJS ? "Typescript" : "Cancel" }`}</button>
                 </div>
                 <div id="tags" className={`${isDisabled ? 'row mt-3 justify-content-center disabledbutton' : 'row mt-3 justify-content-center'}`}>
                     {Npms.map(npm => (
