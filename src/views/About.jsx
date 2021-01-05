@@ -56,8 +56,8 @@ function About() {
                         </div>
                     </div>
                     <div className="row justify-content-center py-5">
-                        <div className="col-auto text-white">
-                            <div type="button" className="border text-white">
+                        <div className="col-auto">
+                            <div className="border text-white">
                                 <Right />
                             </div>
                         </div>
