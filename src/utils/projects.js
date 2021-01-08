@@ -52,7 +52,7 @@ export const ProjectsArray = [
     {
         id: 7,
         name: "Single Scroll Mock",
-        description: "",
+        description: "This is a sample site built as a single scroll. It has a multi-language “Hello” carousel and some animation for visual effects. ",
         url: "https://floating-retreat-73992.herokuapp.com/",
         git: "https://github.com/PawelPavo/Portfolio-Infinite-Scroll",
         images: [ 'https://news-api.s3.us-east-2.amazonaws.com/SingleScrollMock.png', 'https://news-api.s3.us-east-2.amazonaws.com/SingleScrollMock_Bio.png', 'https://news-api.s3.us-east-2.amazonaws.com/SingleScrollMock_Contact.png' ]
@@ -60,7 +60,7 @@ export const ProjectsArray = [
     {
         id: 8,
         name: "Light/Dark Theme",
-        description: "This site is made with ReactJS, TypeScript with CRUD routes hooked to MySQL. It is styled with Bootstrap, custom CSS along with light and dark theme toggle.",
+        description: "This is one of my first portfolio websites which features light and dark themes, as well as some cool state changes. It is also connected to Mailgun API.",
         url: "https://damp-headland-11870.herokuapp.com/",
         git: "https://github.com/PawelPavo/resume_site",
         images: [ 'https://news-api.s3.us-east-2.amazonaws.com/Light_Dark_theme_1_Theme_OFF.png' ,  'https://news-api.s3.us-east-2.amazonaws.com/Light_Dark_theme_1_Theme_ON.png', 'https://news-api.s3.us-east-2.amazonaws.com/Light_Dark_theme_1_Theme_OFF_Projects.png', 'https://news-api.s3.us-east-2.amazonaws.com/Light_Dark_theme_1_Theme_ON_Projects.png', 'https://news-api.s3.us-east-2.amazonaws.com/Light_Dark_theme_1_Theme_OFF_Contact.png', 'https://news-api.s3.us-east-2.amazonaws.com/Light_Dark_theme_1_Theme_ON_Contact.png', 'https://news-api.s3.us-east-2.amazonaws.com/Light_Dark_theme_1_Theme_OFF_Resume.png', 'https://news-api.s3.us-east-2.amazonaws.com/Light_Dark_theme_1_Theme_ON_Resume.png' ]
@@ -68,7 +68,7 @@ export const ProjectsArray = [
     {
         id: 9,
         name: "Authentication",
-        description: "This site is made with ReactJS, SQL and Node. It is fully functional blog with Authentication and user Login as well as fully functional comment feature. It tokenizes a user and encripts passwords.",
+        description: "This site has many features for personal testing. It includes authentication tokens, CRUD operations, 3rd party API calls, and much much more.",
         url: "https://mighty-fortress-59305.herokuapp.com/blog",
         git: "https://github.com/PawelPavo/searchBar",
         images: ['https://news-api.s3.us-east-2.amazonaws.com/CRUD_BLOG_Register.png', 'https://news-api.s3.us-east-2.amazonaws.com/CRUD_BLOG_Login.png', 'https://news-api.s3.us-east-2.amazonaws.com/CRUD_BLOG.png' , 'https://news-api.s3.us-east-2.amazonaws.com/CRUD_BLOG_View_Blog_2.png', 'https://news-api.s3.us-east-2.amazonaws.com/CRUD_BLOG_Comment.png', 'https://news-api.s3.us-east-2.amazonaws.com/CRUD_BLOG_Profile_Page.png']
