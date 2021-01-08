@@ -2,7 +2,7 @@ export const ProjectsArray = [
     {
         id: 1,
         name: "XoloBooks",
-        description: "A bookstore build with wix and custom JavaScript which includes full checkout, book inventory, as well as search bar. This project is build with customers directions and content. It is deployed with Wix.",
+        description: "An e-commerce bookstore website that through a collection and sale of used books expands beyond decolonized reading so they can donate as much as they can.",
         url: "https://www.xolobooks.com/",
         git: "https://github.com/PawelPavo",
         images: ['https://news-api.s3.us-east-2.amazonaws.com/XoloBooks.png', 'https://news-api.s3.us-east-2.amazonaws.com/XoloBooks_Bookstore.png', 'https://news-api.s3.us-east-2.amazonaws.com/XoloBooks_SignUp.png', 'https://news-api.s3.us-east-2.amazonaws.com/XoloBooks_Why_Used.png'  ]
@@ -11,7 +11,7 @@ export const ProjectsArray = [
     {
         id: 2,
         name: "Wilton Drain Pro",
-        description: "This site is made with Create React App with TypeScript. It uses a combination of Bootstrap and Styled-Components. It does not have a backend because it is deployed with github pages with multi-route solution.",
+        description: "This is a local plumber’s concept website designed to help boost Wilton Manor’s small business and showcase the various services that they provide.",
         url: "https://pawelpavo.github.io/WiltonDrainPro/#/WiltonDrainPro/",
         git: "https://github.com/PawelPavo/WiltonDrainPro",
         images: [ 'https://news-api.s3.us-east-2.amazonaws.com/WiltionDrianPro_Home.png', 'https://news-api.s3.us-east-2.amazonaws.com/WiltonDrainPro.png', 'https://news-api.s3.us-east-2.amazonaws.com/WiltonDrainPro_Contact.png'  ]
@@ -19,7 +19,7 @@ export const ProjectsArray = [
     {
         id: 3,
         name: "The Pathfinder",
-        description: "This is a game made with Luke Przekwas using ReactJS with Bootstrap and Styled-Components. It is a fully functional game deployed with Github pages.",
+        description: "This is an easy game to play that requires you to find the path to the bottom by using the least amount of clicks.",
         url: "https://przekwas.github.io/help-pathfinder-pawel/",
         git: "https://github.com/PawelPavo/ThePathfinder",
         images: [ 'https://news-api.s3.us-east-2.amazonaws.com/Pathfinder.png', 'https://news-api.s3.us-east-2.amazonaws.com/Pathfinder_DarkMode.png' ]
@@ -27,7 +27,7 @@ export const ProjectsArray = [
     {
         id: 4,
         name: "Stripe Payment",
-        description: "This part of the website is built with Stripe payment processing platform. It is connected to the server through NodeJS with Express. Frontend is build with custom CSS and Bootstrap.",
+        description: "Stripe payment is a full working code connecting to Stripe Checkout. The client and server code redirect to the payment page hosted on Heroku.",
         url: "https://mighty-fortress-59305.herokuapp.com/donate",
         git: "https://github.com/PawelPavo/searchBar/blob/master/src/client/pages/Donate.tsx",
         images: [ 'https://news-api.s3.us-east-2.amazonaws.com/Stripe.png' ]
@@ -35,7 +35,7 @@ export const ProjectsArray = [
     {
         id: 5,
         name: "Who Gives A Sock",
-        description: "This site is made for a NYC charity organization. It is build with ReactJS along with Bootstrap. Backend is powered by NodeJS with Express with SQL database. Deployed with Heroku.",
+        description: "This site is made pro-bono for an NYC charity organization that provides brand new socks to thousands of New Yorkers living on the streets and in shelters.",
         url: "https://nameless-wildwood-77028.herokuapp.com/",
         git: "https://github.com/PawelPavo/WhoGivesASock",
         images: [ 'https://news-api.s3.us-east-2.amazonaws.com/WGAS.png' ]
@@ -44,7 +44,7 @@ export const ProjectsArray = [
     {
         id: 6,
         name: "Splash Page Mock",
-        description: "This site is made with ReactJS, TypeScript without any routes. It is styled with Bootstrap, custom CSS and Styled-Components. It is made with anchor tag navigation. The site uses Heroku for deploynment.",
+        description: "This sample site is built as a SPA website with scroll to content feature. It is designed to showcare an animated landing page.",
         url: "https://secret-ravine-28184.herokuapp.com/",
         git: "https://github.com/PawelPavo/my-site-2",
         images: [ 'https://news-api.s3.us-east-2.amazonaws.com/SplashPageMock.png', 'https://news-api.s3.us-east-2.amazonaws.com/SplashPageMock_Home.png', 'https://news-api.s3.us-east-2.amazonaws.com/SplashPageMock_Projects.png' ]
@@ -52,7 +52,7 @@ export const ProjectsArray = [
     {
         id: 7,
         name: "Single Scroll Mock",
-        description: "This site is made with ReactJS, TypeScript without any routes. It is styled with Bootstrap, custom CSS and Styled-Components. It is made with anchor tag navigation. The site uses Heroku for deploynment.",
+        description: "",
         url: "https://floating-retreat-73992.herokuapp.com/",
         git: "https://github.com/PawelPavo/Portfolio-Infinite-Scroll",
         images: [ 'https://news-api.s3.us-east-2.amazonaws.com/SingleScrollMock.png', 'https://news-api.s3.us-east-2.amazonaws.com/SingleScrollMock_Bio.png', 'https://news-api.s3.us-east-2.amazonaws.com/SingleScrollMock_Contact.png' ]
